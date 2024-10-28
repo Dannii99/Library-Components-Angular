@@ -1,0 +1,10 @@
+<button>
+    @if (iconPos == 'left') {
+        <p>{{icon}}</p>
+    }
+    {{label}}
+    <ng-content></ng-content>
+    @if (iconPos == 'right') {
+        <p>{{icon}}</p>
+    }
+</button>

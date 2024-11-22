@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-button',
+  selector: 'pr-button',
   standalone: true,
   imports: [],
   templateUrl: './button.component.html',

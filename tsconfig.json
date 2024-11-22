@@ -12,8 +12,9 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "paths": {
-      "my-library": [
-        "./dist/my-library"
+      "ngx-angular-pro": [ //my-library
+        //"./dist/my-library"
+        "./projects/my-library/src/public-api.ts"
       ]
     },
     "esModuleInterop": true,
